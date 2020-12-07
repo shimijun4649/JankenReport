@@ -153,9 +153,6 @@ class Janken3
       HumanPlayer player = new HumanPlayer("このゲームはあなたの勝ちです！");
       // コンピュータプレーヤの生成
       Player computer = new Player("このゲームはあなたの負けです！"); 
-      System.out.println("あなたの勝数：" + player.point
-                         + "、コンピュータの勝数：" + computer.point);
-      // 勝敗が決するまで繰り返す
       // player.fight(computer);
       computer.fight(player);
     
